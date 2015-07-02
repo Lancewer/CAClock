@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		2117F6131B44E729004DDE66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2117F6121B44E729004DDE66 /* main.m */; };
 		2117F6161B44E729004DDE66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2117F6151B44E729004DDE66 /* AppDelegate.m */; };
-		2117F6191B44E729004DDE66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2117F6181B44E729004DDE66 /* ViewController.m */; };
 		2117F61C1B44E729004DDE66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2117F61A1B44E729004DDE66 /* Main.storyboard */; };
 		2117F61E1B44E729004DDE66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2117F61D1B44E729004DDE66 /* Images.xcassets */; };
 		2117F6211B44E729004DDE66 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2117F61F1B44E729004DDE66 /* LaunchScreen.xib */; };
 		2117F62D1B44E729004DDE66 /* CAClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2117F62C1B44E729004DDE66 /* CAClockTests.m */; };
+		2117F6381B44E758004DDE66 /* LAWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2117F6371B44E758004DDE66 /* LAWViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		2117F6121B44E729004DDE66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2117F6141B44E729004DDE66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2117F6151B44E729004DDE66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2117F6171B44E729004DDE66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2117F6181B44E729004DDE66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2117F61B1B44E729004DDE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2117F61D1B44E729004DDE66 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2117F6201B44E729004DDE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2117F6261B44E729004DDE66 /* CAClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2117F62B1B44E729004DDE66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2117F62C1B44E729004DDE66 /* CAClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAClockTests.m; sourceTree = "<group>"; };
+		2117F6361B44E758004DDE66 /* LAWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAWViewController.h; sourceTree = "<group>"; };
+		2117F6371B44E758004DDE66 /* LAWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAWViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +83,12 @@
 			children = (
 				2117F6141B44E729004DDE66 /* AppDelegate.h */,
 				2117F6151B44E729004DDE66 /* AppDelegate.m */,
-				2117F6171B44E729004DDE66 /* ViewController.h */,
-				2117F6181B44E729004DDE66 /* ViewController.m */,
 				2117F61A1B44E729004DDE66 /* Main.storyboard */,
 				2117F61D1B44E729004DDE66 /* Images.xcassets */,
 				2117F61F1B44E729004DDE66 /* LaunchScreen.xib */,
 				2117F6101B44E729004DDE66 /* Supporting Files */,
+				2117F6361B44E758004DDE66 /* LAWViewController.h */,
+				2117F6371B44E758004DDE66 /* LAWViewController.m */,
 			);
 			path = CAClock;
 			sourceTree = "<group>";
@@ -219,9 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2117F6191B44E729004DDE66 /* ViewController.m in Sources */,
 				2117F6161B44E729004DDE66 /* AppDelegate.m in Sources */,
 				2117F6131B44E729004DDE66 /* main.m in Sources */,
+				2117F6381B44E758004DDE66 /* LAWViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
